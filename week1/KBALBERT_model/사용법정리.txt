@@ -1,0 +1,6 @@
+1. nsmc_data -> nsmc_config에서 "model_name_or_path" : "kb-albert-char-base-v1의 path를 절대적인 디렉토리 위치로 적어주어야 합니다."
+
+2.학습 명령어 : python run_nsmc.py ./nsmc_data/nsmc_config.json
+
+run_example_pipeline.py 파일에 text를 적어주시고,
+3.inference 명령어 : python run_example_pipeline.py
